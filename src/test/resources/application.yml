@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: ms-payment-button
+  profiles:
+    active: test
+server:
+  port : 8093
+restTemplate:
+  timeout: 60
+
+url.bitcoint: https://cex.io/api/last_price/BTC/USD

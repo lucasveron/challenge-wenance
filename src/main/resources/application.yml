@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: challenge
+  profiles:
+    active: desa
+server:
+  port : 8095
+restTemplate:
+  timeout: 60
+
+url.bitcoint: https://cex.io/api/last_price/BTC/USD
